@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Rick & Morty Filter
+Bu proje, [https://rickandmortyapi.com] (Rick and Morty API) üzerinden alınan verileri kullanarak, karakterlerin özelliklerine göre filtreleme yapabilen bir React uygulamasını içerir. Bu proje, React kullanarak pratik yapmak ve kendimi geliştirmek amacıyla oluşturulmuştur.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**API Entegrasyonu:** Rick and Morty API'den veri alımı ve kullanımı üzerine pratik yapmak.
 
-## Available Scripts
+**Filtreleme Özellikleri:** Karakterlerin özelliklerine göre filtreleme yapabilme yeteneğini geliştirmek.
 
-In the project directory, you can run:
+**React Becerileri:** React kullanarak bir uygulama geliştirirken bileşenler arası etkileşim, state yönetimi gibi konularda deneyim kazanmak.
 
-### `npm start`
+**Kapsamlı React Uygulaması:** Uygulama içerisinde farklı React özelliklerini ve yapılarını kullanarak kapsamlı bir proje oluşturmak.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Proje terminalinde, aşağıdaki komutları çalıştırabilirsiniz:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## npm start
+Uygulamayı geliştirme modunda çalıştırır. Tarayıcınızda http://localhost:3000 adresini açarak uygulamayı görebilirsiniz.
 
-### `npm test`
+Değişiklik yaptığınızda sayfa otomatik olarak yenilenecektir. Konsolda herhangi bir lint hatasını da görebilirsiniz.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## npm test
+Etkileşimli izleme modunda test çalıştırır. Daha fazla bilgi için test çalıştırma bölümüne bakabilirsiniz.
 
-### `npm run build`
+## npm run build
+Uygulamayı üretim için build klasörüne oluşturur. React'i üretim modunda doğru bir şekilde birleştirir ve performans için build optimizasyonu yapar.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Build işlemi minified (küçültülmüş) ve dosya adları hash'lerini içerir. Uygulamanız dağıtıma hazırdır!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## npm run eject
+Not: Bu tek yönlü bir işlemdir. Bir kez eject yaptıktan sonra geri dönemezsiniz!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Eğer build aracından veya yapılandırma seçeneklerinden memnun değilseniz, istediğiniz zaman eject yapabilirsiniz. Bu komut, projenizden tek bir yapılandırma bağımlılığını kaldırır.
 
-### `npm run eject`
+Bunun yerine, tüm yapılandırma dosyalarını ve bağımlılıkları (webpack, Babel, ESLint, vs.) doğrudan projenize kopyalar, böylece tam kontrol sahibi olursunuz. Eject yaptıktan sonra, eject dışındaki tüm komutlar hala çalışır, ancak kopyalanan komutlara işaret eder, böylece bunları özelleştirebilirsiniz. Bu noktadan sonra tamamen kendi başınızasınız.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Eject'i kullanmak zorunda değilsiniz. Hazırlanan özellik seti küçük ve orta ölçekli dağıtımlar için uygundur ve bu özelliği kullanmak zorunda hissetmemelisiniz. Ancak, bu aracın özelleştirilemez olması durumunda faydalı olmayacağını anlıyoruz.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
